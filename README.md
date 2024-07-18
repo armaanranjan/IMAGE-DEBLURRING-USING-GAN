@@ -1,9 +1,9 @@
-#Image Deblurring Using GAN
+# Image Deblurring Using GAN
 
-##ABOUT THE PROJECT
+## ABOUT THE PROJECT
 
 In Generative Adversarial Networks, two networks train against each other. The generator misleads the discriminator by creating compelling fake inputs. The discriminator tells if an input is real or artificial.
-###There are 3 major steps in the training:
+### There are 3 major steps in the training:
 
 use the generator to create fake inputs based on noise
 train the discriminator with both real and fake inputs
@@ -19,6 +19,6 @@ The first one is a perceptual loss computed directly on the generator’s output
 The second loss is the Wasserstein loss performed on the outputs of the whole model. It takes the mean of the differences between two images. It is known to improve convergence of generative adversarial networks.
 Finally, we successively train the discriminator and the generator, based on both losses. We generate fake inputs with the generator. We train the discriminator to distinguish fake from real inputs, and we train the whole model.
 
-##DEPENDENCIES
+## DEPENDENCIES
 
 Keras
