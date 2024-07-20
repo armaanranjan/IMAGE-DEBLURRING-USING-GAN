@@ -37,17 +37,12 @@
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#dependencies">Dependencies</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#authors">Authors</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
@@ -83,10 +78,6 @@ Finally, we successively train the discriminator and the generator, based on bot
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
 
-<!-- GETTING STARTED -->
-## Getting Started
-
-In this section you should provide instructions on how to use this repository to recreate your project locally.
 
 ### Dependencies
 
@@ -103,21 +94,8 @@ For example, this is how you would list them:
   ```sh
   tensorflow
   opencv-python
-  mediapipe
+  keras
   numpy
-  flask
-  jsonify
-  ```
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/README_INSTRUCTIONS.git
-   ```
-2. Setup (and activate) your environment
-  ```sh
-  your running etc
   ```
 
 <!-- USAGE EXAMPLES -->
@@ -128,23 +106,6 @@ Use this space to show useful examples of how a project can be used. For course 
 Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/README_INSTRUCTIONS/issues) for a list of proposed features (and known issues).
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 
 <!-- LICENSE -->
 ## License
@@ -165,5 +126,5 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 You can acknowledge any individual, group, institution or service.
 * [SRM KTR SIGKDD Student Chapter](https://github.com/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER)
-* [Exectra](https://github.com/)
+* [Theodo DATA and AI](https://data-ai.theodo.com/)
 
